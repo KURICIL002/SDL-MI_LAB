@@ -1,0 +1,23 @@
+[0.475s] Invoking command in '/home/pragalbhv/ros2-workspaces/model_sc_ws/src/model_sc_pkg': AMENT_PREFIX_PATH=/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_msg LD_LIBRARY_PATH=/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pragalbhv/ros2-workspaces/model_sc_ws/build/model_sc_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_pkg/lib/python3.10/site-packages:/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/model_sc_pkg build --build-base /home/pragalbhv/ros2-workspaces/model_sc_ws/build/model_sc_pkg/build install --record /home/pragalbhv/ros2-workspaces/model_sc_ws/build/model_sc_pkg/install.log --single-version-externally-managed install_data
+[0.666s] running egg_info
+[0.666s] writing ../../build/model_sc_pkg/model_sc_pkg.egg-info/PKG-INFO
+[0.666s] writing dependency_links to ../../build/model_sc_pkg/model_sc_pkg.egg-info/dependency_links.txt
+[0.667s] writing entry points to ../../build/model_sc_pkg/model_sc_pkg.egg-info/entry_points.txt
+[0.667s] writing requirements to ../../build/model_sc_pkg/model_sc_pkg.egg-info/requires.txt
+[0.667s] writing top-level names to ../../build/model_sc_pkg/model_sc_pkg.egg-info/top_level.txt
+[0.668s] reading manifest file '../../build/model_sc_pkg/model_sc_pkg.egg-info/SOURCES.txt'
+[0.668s] adding license file 'LICENSE'
+[0.669s] writing manifest file '../../build/model_sc_pkg/model_sc_pkg.egg-info/SOURCES.txt'
+[0.669s] running build
+[0.669s] running build_py
+[0.669s] running install
+[0.669s] running install_lib
+[0.670s] running install_data
+[0.670s] copying package.xml -> /home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_pkg/share/model_sc_pkg
+[0.671s] running install_egg_info
+[0.672s] removing '/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_pkg/lib/python3.10/site-packages/model_sc_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.672s] Copying ../../build/model_sc_pkg/model_sc_pkg.egg-info to /home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_pkg/lib/python3.10/site-packages/model_sc_pkg-0.0.0-py3.10.egg-info
+[0.673s] running install_scripts
+[0.689s] Installing model_spin_coater script to /home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_pkg/lib/model_sc_pkg
+[0.690s] writing list of installed files to '/home/pragalbhv/ros2-workspaces/model_sc_ws/build/model_sc_pkg/install.log'
+[0.707s] Invoked command in '/home/pragalbhv/ros2-workspaces/model_sc_ws/src/model_sc_pkg' returned '0': AMENT_PREFIX_PATH=/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_msg LD_LIBRARY_PATH=/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pragalbhv/ros2-workspaces/model_sc_ws/build/model_sc_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_pkg/lib/python3.10/site-packages:/home/pragalbhv/ros2-workspaces/model_sc_ws/install/model_sc_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/model_sc_pkg build --build-base /home/pragalbhv/ros2-workspaces/model_sc_ws/build/model_sc_pkg/build install --record /home/pragalbhv/ros2-workspaces/model_sc_ws/build/model_sc_pkg/install.log --single-version-externally-managed install_data

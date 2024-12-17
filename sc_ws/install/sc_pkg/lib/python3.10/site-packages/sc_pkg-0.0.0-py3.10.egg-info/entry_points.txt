@@ -1,0 +1,3 @@
+[console_scripts]
+spin_coater = sc_pkg.sc_node:main
+

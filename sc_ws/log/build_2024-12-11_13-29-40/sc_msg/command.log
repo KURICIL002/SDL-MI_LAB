@@ -1,0 +1,6 @@
+Invoking command in '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pragalbhv/ros2-workspaces/sc_ws/src/sc_msg -DCMAKE_INSTALL_PREFIX=/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg
+Invoked command in '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pragalbhv/ros2-workspaces/sc_ws/src/sc_msg -DCMAKE_INSTALL_PREFIX=/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg
+Invoking command in '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg -- -j4 -l4
+Invoked command in '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg -- -j4 -l4
+Invoking command in '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg
+Invoked command in '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg

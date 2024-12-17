@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.000348] (sc_msg) JobQueued: {'identifier': 'sc_msg', 'dependencies': OrderedDict()}
+[0.000431] (sc_pkg) JobQueued: {'identifier': 'sc_pkg', 'dependencies': OrderedDict([('sc_msg', '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg')])}
+[0.000450] (sc_msg) JobStarted: {'identifier': 'sc_msg'}
+[0.006255] (sc_msg) JobProgress: {'identifier': 'sc_msg', 'progress': 'cmake'}
+[0.007079] (sc_msg) JobProgress: {'identifier': 'sc_msg', 'progress': 'build'}
+[0.007137] (sc_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg', '--', '-j4', '-l4'], 'cwd': '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pragalbhv'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pragalbhv'), ('OLDPWD', '/home/pragalbhv/ros2-workspaces/sc_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2387'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pragalbhv/ros2-workspaces/sc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pragalbhv'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pragalbhv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pragalbhv/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pragalbhv-CPU-only:@/tmp/.ICE-unix/2322,unix/pragalbhv-CPU-only:/tmp/.ICE-unix/2322'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac0accb9_cbe1_4689_b511_fd916928b82b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.65DPY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.274'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg:/opt/ros/humble')]), 'shell': False}
+[0.025861] (sc_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099659] (-) TimerEvent: {}
+[0.122984] (sc_msg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.142930] (sc_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.144937] (sc_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.149635] (sc_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.157457] (sc_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.167398] (sc_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.196457] (sc_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.199751] (-) TimerEvent: {}
+[0.300066] (-) TimerEvent: {}
+[0.400265] (-) TimerEvent: {}
+[0.459957] (sc_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.500383] (-) TimerEvent: {}
+[0.600605] (-) TimerEvent: {}
+[0.700819] (-) TimerEvent: {}
+[0.801007] (-) TimerEvent: {}
+[0.851691] (sc_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901123] (-) TimerEvent: {}
+[0.979981] (sc_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001198] (-) TimerEvent: {}
+[1.009911] (sc_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.021033] (sc_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.056665] (sc_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.056781] (sc_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.056832] (sc_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.056878] (sc_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.073249] (sc_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.101275] (-) TimerEvent: {}
+[1.170771] (sc_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.201391] (-) TimerEvent: {}
+[1.205528] (sc_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.214868] (sc_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg\n'}
+[1.234198] (sc_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.243129] (sc_msg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.249178] (sc_msg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_sc_msg\n'}
+[1.302054] (-) TimerEvent: {}
+[1.402243] (-) TimerEvent: {}
+[1.447710] (sc_msg) StdoutLine: {'line': b'running egg_info\n'}
+[1.448318] (sc_msg) StdoutLine: {'line': b'creating sc_msg.egg-info\n'}
+[1.448395] (sc_msg) StdoutLine: {'line': b'writing sc_msg.egg-info/PKG-INFO\n'}
+[1.449137] (sc_msg) StdoutLine: {'line': b'writing dependency_links to sc_msg.egg-info/dependency_links.txt\n'}
+[1.449212] (sc_msg) StdoutLine: {'line': b'writing top-level names to sc_msg.egg-info/top_level.txt\n'}
+[1.449264] (sc_msg) StdoutLine: {'line': b"writing manifest file 'sc_msg.egg-info/SOURCES.txt'\n"}
+[1.450129] (sc_msg) StdoutLine: {'line': b"reading manifest file 'sc_msg.egg-info/SOURCES.txt'\n"}
+[1.450527] (sc_msg) StdoutLine: {'line': b"writing manifest file 'sc_msg.egg-info/SOURCES.txt'\n"}
+[1.472262] (sc_msg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_sc_msg_egg\n'}
+[1.502340] (-) TimerEvent: {}
+[1.519911] (sc_msg) StdoutLine: {'line': b'[  5%] Built target sc_msg__cpp\n'}
+[1.528845] (sc_msg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.528971] (sc_msg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.530227] (sc_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.537204] (sc_msg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/sc_msg__rosidl_generator_c.dir/rosidl_generator_c/sc_msg/msg/detail/commands__functions.c.o\x1b[0m\n'}
+[1.602420] (-) TimerEvent: {}
+[1.658175] (sc_msg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/sc_msg__rosidl_generator_c.dir/rosidl_generator_c/sc_msg/msg/detail/status__functions.c.o\x1b[0m\n'}
+[1.696338] (sc_msg) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libsc_msg__rosidl_generator_c.so\x1b[0m\n'}
+[1.704099] (-) TimerEvent: {}
+[1.765037] (sc_msg) StdoutLine: {'line': b'[ 20%] Built target sc_msg__rosidl_generator_c\n'}
+[1.779281] (sc_msg) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.785548] (sc_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sc_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sc_msg/msg/detail/commands__type_support.cpp.o\x1b[0m\n'}
+[1.786231] (sc_msg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/sc_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sc_msg/msg/detail/dds_fastrtps/commands__type_support.cpp.o\x1b[0m\n'}
+[1.801130] (sc_msg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/sc_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sc_msg/msg/commands__type_support.cpp.o\x1b[0m\n'}
+[1.804171] (-) TimerEvent: {}
+[1.904350] (-) TimerEvent: {}
+[2.007110] (-) TimerEvent: {}
+[2.041147] (sc_msg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/sc_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sc_msg/msg/detail/commands__type_support_c.cpp.o\x1b[0m\n'}
+[2.085526] (sc_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/sc_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sc_msg/msg/status__type_support.cpp.o\x1b[0m\n'}
+[2.107206] (-) TimerEvent: {}
+[2.159629] (sc_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/sc_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sc_msg/msg/detail/status__type_support.cpp.o\x1b[0m\n'}
+[2.190263] (sc_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/sc_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sc_msg/msg/detail/dds_fastrtps/status__type_support.cpp.o\x1b[0m\n'}
+[2.207292] (-) TimerEvent: {}
+[2.299858] (sc_msg) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libsc_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.307382] (-) TimerEvent: {}
+[2.317959] (sc_msg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/sc_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sc_msg/msg/detail/status__type_support_c.cpp.o\x1b[0m\n'}
+[2.347772] (sc_msg) StdoutLine: {'line': b'[ 46%] Built target sc_msg__rosidl_typesupport_cpp\n'}
+[2.356167] (sc_msg) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.407470] (-) TimerEvent: {}
+[2.499875] (sc_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libsc_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.507556] (-) TimerEvent: {}
+[2.522115] (sc_msg) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libsc_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.596137] (sc_msg) StdoutLine: {'line': b'[ 53%] Built target sc_msg__rosidl_typesupport_introspection_cpp\n'}
+[2.609113] (-) TimerEvent: {}
+[2.613929] (sc_msg) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.618128] (sc_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libsc_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.637336] (sc_msg) StdoutLine: {'line': b'[ 58%] Built target sc_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[2.658149] (sc_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/sc_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sc_msg/msg/detail/commands__type_support.c.o\x1b[0m\n'}
+[2.666209] (sc_msg) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/sc_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sc_msg/msg/detail/status__type_support.c.o\x1b[0m\n'}
+[2.703645] (sc_msg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libsc_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.707728] (sc_msg) StdoutLine: {'line': b'[ 66%] Built target sc_msg__rosidl_typesupport_fastrtps_c\n'}
+[2.709182] (-) TimerEvent: {}
+[2.729646] (sc_msg) StdoutLine: {'line': b'[ 66%] Built target sc_msg__rosidl_typesupport_introspection_c\n'}
+[2.809264] (-) TimerEvent: {}
+[2.858672] (sc_msg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/sc_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/sc_msg/msg/commands__type_support.cpp.o\x1b[0m\n'}
+[2.858799] (sc_msg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/sc_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/sc_msg/msg/status__type_support.cpp.o\x1b[0m\n'}
+[2.883170] (sc_msg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libsc_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.909386] (-) TimerEvent: {}
+[2.916544] (sc_msg) StdoutLine: {'line': b'[ 74%] Built target sc_msg__rosidl_typesupport_c\n'}
+[2.932036] (sc_msg) StdoutLine: {'line': b'[ 74%] Built target sc_msg\n'}
+[2.948196] (sc_msg) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.009497] (-) TimerEvent: {}
+[3.109709] (-) TimerEvent: {}
+[3.209923] (-) TimerEvent: {}
+[3.293768] (sc_msg) StdoutLine: {'line': b'[ 76%] Built target sc_msg__py\n'}
+[3.309107] (sc_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/sc_msg__rosidl_generator_py.dir/rosidl_generator_py/sc_msg/msg/_status_s.c.o\x1b[0m\n'}
+[3.309230] (sc_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/sc_msg__rosidl_generator_py.dir/rosidl_generator_py/sc_msg/msg/_commands_s.c.o\x1b[0m\n'}
+[3.310030] (-) TimerEvent: {}
+[3.391942] (sc_msg) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sc_msg/libsc_msg__rosidl_generator_py.so\x1b[0m\n'}
+[3.410134] (-) TimerEvent: {}
+[3.435421] (sc_msg) StdoutLine: {'line': b'[ 84%] Built target sc_msg__rosidl_generator_py\n'}
+[3.451918] (sc_msg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/sc_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sc_msg/_sc_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.452051] (sc_msg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/sc_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sc_msg/_sc_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.452237] (sc_msg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/sc_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sc_msg/_sc_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.510254] (-) TimerEvent: {}
+[3.535814] (sc_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sc_msg/sc_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.535946] (sc_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sc_msg/sc_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.536352] (sc_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sc_msg/sc_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.572156] (sc_msg) StdoutLine: {'line': b'[100%] Built target sc_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[3.573962] (sc_msg) StdoutLine: {'line': b'[100%] Built target sc_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.575452] (sc_msg) StdoutLine: {'line': b'[100%] Built target sc_msg__rosidl_typesupport_c__pyext\n'}
+[3.585040] (sc_msg) CommandEnded: {'returncode': 0}
+[3.585295] (sc_msg) JobProgress: {'identifier': 'sc_msg', 'progress': 'install'}
+[3.591848] (sc_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg'], 'cwd': '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pragalbhv'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pragalbhv'), ('OLDPWD', '/home/pragalbhv/ros2-workspaces/sc_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2387'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pragalbhv/ros2-workspaces/sc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pragalbhv'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pragalbhv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pragalbhv/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pragalbhv-CPU-only:@/tmp/.ICE-unix/2322,unix/pragalbhv-CPU-only:/tmp/.ICE-unix/2322'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac0accb9_cbe1_4689_b511_fd916928b82b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.65DPY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.274'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg:/opt/ros/humble')]), 'shell': False}
+[3.598141] (sc_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.598334] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/ament_index/resource_index/rosidl_interfaces/sc_msg\n'}
+[3.598445] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg\n'}
+[3.598496] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg\n'}
+[3.598623] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/status.h\n'}
+[3.598673] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail\n'}
+[3.598721] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__type_support.h\n'}
+[3.598793] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__type_support.h\n'}
+[3.598845] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__functions.c\n'}
+[3.598916] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__struct.h\n'}
+[3.598984] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__functions.h\n'}
+[3.599045] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__functions.h\n'}
+[3.599155] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__functions.c\n'}
+[3.599242] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__struct.h\n'}
+[3.599342] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/commands.h\n'}
+[3.599426] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.599538] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/library_path.sh\n'}
+[3.599613] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/library_path.dsv\n'}
+[3.599760] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_generator_c.so\n'}
+[3.600074] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_generator_c.so" to ""\n'}
+[3.600146] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg\n'}
+[3.600195] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg\n'}
+[3.600257] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail\n'}
+[3.600322] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__rosidl_typesupport_fastrtps_c.h\n'}
+[3.600387] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.600452] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.600514] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[3.600846] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.600913] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg\n'}
+[3.600981] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg\n'}
+[3.601031] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail\n'}
+[3.601103] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__builder.hpp\n'}
+[3.601165] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__traits.hpp\n'}
+[3.601208] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__struct.hpp\n'}
+[3.601271] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__traits.hpp\n'}
+[3.601327] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__builder.hpp\n'}
+[3.601419] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__struct.hpp\n'}
+[3.601509] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/status.hpp\n'}
+[3.601571] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/commands.hpp\n'}
+[3.601673] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg\n'}
+[3.601734] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg\n'}
+[3.601804] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail\n'}
+[3.601848] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.601911] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.601970] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/dds_fastrtps\n'}
+[3.602030] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.602189] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.602478] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.602533] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg\n'}
+[3.602596] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg\n'}
+[3.602664] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail\n'}
+[3.602719] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__type_support.c\n'}
+[3.602762] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__rosidl_typesupport_introspection_c.h\n'}
+[3.602824] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__rosidl_typesupport_introspection_c.h\n'}
+[3.602885] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__type_support.c\n'}
+[3.602965] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.603121] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_introspection_c.so\n'}
+[3.603440] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.603508] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_c.so\n'}
+[3.603789] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_c.so" to ""\n'}
+[3.603834] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg\n'}
+[3.603881] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg\n'}
+[3.603956] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail\n'}
+[3.604001] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__type_support.cpp\n'}
+[3.604050] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.604114] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.604168] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/include/sc_msg/sc_msg/msg/detail/status__type_support.cpp\n'}
+[3.604250] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[3.604572] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.604635] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_cpp.so\n'}
+[3.604881] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[3.604943] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/pythonpath.sh\n'}
+[3.605031] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/pythonpath.dsv\n'}
+[3.605204] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg-0.0.0-py3.10.egg-info\n'}
+[3.605297] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.605384] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.605452] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.605526] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.605635] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg\n'}
+[3.605705] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/sc_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.605809] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/_sc_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.605902] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/sc_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.606000] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/sc_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.606143] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/msg\n'}
+[3.606241] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/msg/_status_s.c\n'}
+[3.606324] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/msg/__init__.py\n'}
+[3.606410] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/msg/_commands_s.c\n'}
+[3.606497] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/msg/_status.py\n'}
+[3.606554] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/msg/_commands.py\n'}
+[3.606614] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/libsc_msg__rosidl_generator_py.so\n'}
+[3.606701] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/_sc_msg_s.ep.rosidl_typesupport_c.c\n'}
+[3.606791] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/__init__.py\n'}
+[3.606873] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/_sc_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.610308] (-) TimerEvent: {}
+[3.633215] (sc_msg) StdoutLine: {'line': b"Listing '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg'...\n"}
+[3.633331] (sc_msg) StdoutLine: {'line': b"Compiling '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/__init__.py'...\n"}
+[3.633382] (sc_msg) StdoutLine: {'line': b"Listing '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/msg'...\n"}
+[3.633428] (sc_msg) StdoutLine: {'line': b"Compiling '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/msg/__init__.py'...\n"}
+[3.633473] (sc_msg) StdoutLine: {'line': b"Compiling '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/msg/_commands.py'...\n"}
+[3.633516] (sc_msg) StdoutLine: {'line': b"Compiling '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/msg/_status.py'...\n"}
+[3.636752] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/sc_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.637029] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/sc_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.637269] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/sc_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.637479] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/sc_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.637688] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/sc_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.637956] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages/sc_msg/sc_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.638058] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_generator_py.so\n'}
+[3.638369] (sc_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib/libsc_msg__rosidl_generator_py.so" to ""\n'}
+[3.638457] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/msg/Commands.idl\n'}
+[3.638557] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/msg/Status.idl\n'}
+[3.638658] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/msg/Commands.msg\n'}
+[3.638735] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/msg/Status.msg\n'}
+[3.638841] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/ament_index/resource_index/package_run_dependencies/sc_msg\n'}
+[3.638931] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/ament_index/resource_index/parent_prefix_path/sc_msg\n'}
+[3.639005] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/ament_prefix_path.sh\n'}
+[3.639051] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/ament_prefix_path.dsv\n'}
+[3.639116] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/path.sh\n'}
+[3.639177] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/path.dsv\n'}
+[3.639239] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.bash\n'}
+[3.639300] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.sh\n'}
+[3.639394] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.zsh\n'}
+[3.639451] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.dsv\n'}
+[3.639566] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/package.dsv\n'}
+[3.639661] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/ament_index/resource_index/packages/sc_msg\n'}
+[3.639755] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/export_sc_msg__rosidl_generator_cExport.cmake\n'}
+[3.639872] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/export_sc_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.639947] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/export_sc_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.640058] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/export_sc_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.640246] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/export_sc_msg__rosidl_generator_cppExport.cmake\n'}
+[3.640334] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/export_sc_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.640445] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/export_sc_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.640570] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.640704] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.640813] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msg__rosidl_typesupport_cExport.cmake\n'}
+[3.640928] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.641017] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.641140] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.641260] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msg__rosidl_typesupport_cppExport.cmake\n'}
+[3.641398] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.641555] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/export_sc_msg__rosidl_generator_pyExport.cmake\n'}
+[3.641672] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/export_sc_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.641754] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[3.641849] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.641954] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.642036] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.642152] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.642257] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.642397] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.642498] (sc_msg) StdoutLine: {'line': b'-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msgConfig.cmake\n'}
+[3.642604] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msgConfig-version.cmake\n'}
+[3.642670] (sc_msg) StdoutLine: {'line': b'-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/package.xml\n'}
+[3.644390] (sc_msg) CommandEnded: {'returncode': 0}
+[3.659615] (sc_msg) JobEnded: {'identifier': 'sc_msg', 'rc': 0}
+[3.660295] (sc_pkg) JobStarted: {'identifier': 'sc_pkg'}
+[3.710423] (-) TimerEvent: {}
+[3.810639] (-) TimerEvent: {}
+[3.910858] (-) TimerEvent: {}
+[4.011081] (-) TimerEvent: {}
+[4.111271] (-) TimerEvent: {}
+[4.129106] (sc_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sc_pkg', 'build', '--build-base', '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build', 'install', '--record', '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pragalbhv/ros2-workspaces/sc_ws/src/sc_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'pragalbhv', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pragalbhv', 'OLDPWD': '/home/pragalbhv/ros2-workspaces/sc_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2387', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pragalbhv/ros2-workspaces/sc_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pragalbhv', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pragalbhv', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/pragalbhv/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pragalbhv-CPU-only:@/tmp/.ICE-unix/2322,unix/pragalbhv-CPU-only:/tmp/.ICE-unix/2322', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ac0accb9_cbe1_4689_b511_fd916928b82b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.65DPY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.274', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/local/lib/python3.10/dist-packages:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg'}, 'shell': False}
+[4.211373] (-) TimerEvent: {}
+[4.311589] (-) TimerEvent: {}
+[4.320505] (sc_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.320969] (sc_pkg) StdoutLine: {'line': b'writing ../../build/sc_pkg/sc_pkg.egg-info/PKG-INFO\n'}
+[4.321073] (sc_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/sc_pkg/sc_pkg.egg-info/dependency_links.txt\n'}
+[4.321306] (sc_pkg) StdoutLine: {'line': b'writing entry points to ../../build/sc_pkg/sc_pkg.egg-info/entry_points.txt\n'}
+[4.321529] (sc_pkg) StdoutLine: {'line': b'writing requirements to ../../build/sc_pkg/sc_pkg.egg-info/requires.txt\n'}
+[4.321610] (sc_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/sc_pkg/sc_pkg.egg-info/top_level.txt\n'}
+[4.322794] (sc_pkg) StdoutLine: {'line': b"reading manifest file '../../build/sc_pkg/sc_pkg.egg-info/SOURCES.txt'\n"}
+[4.322968] (sc_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.323534] (sc_pkg) StdoutLine: {'line': b"writing manifest file '../../build/sc_pkg/sc_pkg.egg-info/SOURCES.txt'\n"}
+[4.323741] (sc_pkg) StdoutLine: {'line': b'running build\n'}
+[4.323799] (sc_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.323931] (sc_pkg) StdoutLine: {'line': b'running install\n'}
+[4.324158] (sc_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.325097] (sc_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.325326] (sc_pkg) StdoutLine: {'line': b'copying package.xml -> /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/share/sc_pkg\n'}
+[4.325489] (sc_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.326688] (sc_pkg) StdoutLine: {'line': b"removing '/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages/sc_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.326869] (sc_pkg) StdoutLine: {'line': b'Copying ../../build/sc_pkg/sc_pkg.egg-info to /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages/sc_pkg-0.0.0-py3.10.egg-info\n'}
+[4.327559] (sc_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.343828] (sc_pkg) StdoutLine: {'line': b'Installing spin_coater script to /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/sc_pkg\n'}
+[4.344020] (sc_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/install.log'\n"}
+[4.362014] (sc_pkg) CommandEnded: {'returncode': 0}
+[4.366479] (sc_pkg) JobEnded: {'identifier': 'sc_pkg', 'rc': 0}
+[4.367054] (-) EventReactorShutdown: {}

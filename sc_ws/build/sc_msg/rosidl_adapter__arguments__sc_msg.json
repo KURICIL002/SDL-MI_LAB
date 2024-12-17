@@ -1,0 +1,7 @@
+{
+  "package_name": "sc_msg",
+  "non_idl_tuples": [
+    "/home/pragalbhv/ros2-workspaces/sc_ws/src/sc_msg:msg/Commands.msg",
+    "/home/pragalbhv/ros2-workspaces/sc_ws/src/sc_msg:msg/Status.msg"
+  ]
+}

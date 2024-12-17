@@ -1,0 +1,9 @@
+setup.py
+sc_msg/__init__.py
+sc_msg.egg-info/PKG-INFO
+sc_msg.egg-info/SOURCES.txt
+sc_msg.egg-info/dependency_links.txt
+sc_msg.egg-info/top_level.txt
+sc_msg/msg/__init__.py
+sc_msg/msg/_commands.py
+sc_msg/msg/_status.py

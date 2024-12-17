@@ -1,0 +1,38 @@
+[0.466s] Invoking command in '/home/pragalbhv/ros2-workspaces/sample_ws/src/samplepkg': PYTHONPATH=/home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/samplepkg build --build-base /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/build install --record /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/install.log --single-version-externally-managed install_data
+[0.655s] running egg_info
+[0.655s] creating ../../build/samplepkg/samplepkg.egg-info
+[0.656s] writing ../../build/samplepkg/samplepkg.egg-info/PKG-INFO
+[0.657s] writing dependency_links to ../../build/samplepkg/samplepkg.egg-info/dependency_links.txt
+[0.657s] writing entry points to ../../build/samplepkg/samplepkg.egg-info/entry_points.txt
+[0.657s] writing requirements to ../../build/samplepkg/samplepkg.egg-info/requires.txt
+[0.657s] writing top-level names to ../../build/samplepkg/samplepkg.egg-info/top_level.txt
+[0.657s] writing manifest file '../../build/samplepkg/samplepkg.egg-info/SOURCES.txt'
+[0.658s] reading manifest file '../../build/samplepkg/samplepkg.egg-info/SOURCES.txt'
+[0.658s] adding license file 'LICENSE'
+[0.659s] writing manifest file '../../build/samplepkg/samplepkg.egg-info/SOURCES.txt'
+[0.659s] running build
+[0.659s] running build_py
+[0.659s] creating /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/build
+[0.659s] creating /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/build/lib
+[0.659s] creating /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/build/lib/samplepkg
+[0.659s] copying samplepkg/__init__.py -> /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/build/lib/samplepkg
+[0.659s] copying samplepkg/sample.py -> /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/build/lib/samplepkg
+[0.659s] running install
+[0.660s] running install_lib
+[0.660s] creating /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/lib/python3.10/site-packages/samplepkg
+[0.660s] copying /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/build/lib/samplepkg/__init__.py -> /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/lib/python3.10/site-packages/samplepkg
+[0.660s] copying /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/build/lib/samplepkg/sample.py -> /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/lib/python3.10/site-packages/samplepkg
+[0.661s] byte-compiling /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/lib/python3.10/site-packages/samplepkg/__init__.py to __init__.cpython-310.pyc
+[0.661s] byte-compiling /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/lib/python3.10/site-packages/samplepkg/sample.py to sample.cpython-310.pyc
+[0.661s] running install_data
+[0.661s] creating /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/share/ament_index
+[0.661s] creating /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/share/ament_index/resource_index
+[0.662s] creating /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/share/ament_index/resource_index/packages
+[0.662s] copying resource/samplepkg -> /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/share/ament_index/resource_index/packages
+[0.662s] copying package.xml -> /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/share/samplepkg
+[0.662s] running install_egg_info
+[0.663s] Copying ../../build/samplepkg/samplepkg.egg-info to /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/lib/python3.10/site-packages/samplepkg-0.0.0-py3.10.egg-info
+[0.664s] running install_scripts
+[0.679s] Installing samp script to /home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/lib/samplepkg
+[0.680s] writing list of installed files to '/home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/install.log'
+[0.697s] Invoked command in '/home/pragalbhv/ros2-workspaces/sample_ws/src/samplepkg' returned '0': PYTHONPATH=/home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pragalbhv/ros2-workspaces/sample_ws/install/samplepkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/samplepkg build --build-base /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/build install --record /home/pragalbhv/ros2-workspaces/sample_ws/build/samplepkg/install.log --single-version-externally-managed install_data

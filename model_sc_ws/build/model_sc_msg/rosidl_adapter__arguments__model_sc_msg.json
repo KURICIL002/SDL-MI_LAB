@@ -1,0 +1,7 @@
+{
+  "package_name": "model_sc_msg",
+  "non_idl_tuples": [
+    "/home/pragalbhv/ros2-workspaces/model_sc_ws/src/model_sc_msg:msg/Modelcomm.msg",
+    "/home/pragalbhv/ros2-workspaces/model_sc_ws/src/model_sc_msg:msg/Modelsta.msg"
+  ]
+}

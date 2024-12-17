@@ -1,0 +1,3 @@
+[console_scripts]
+model_spin_coater = model_sc_pkg.model_sc_node:main
+

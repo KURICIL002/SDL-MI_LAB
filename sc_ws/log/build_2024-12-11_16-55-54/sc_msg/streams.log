@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg -- -j4 -l4
+[0.221s] Invoked command in '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg -- -j4 -l4
+[0.228s] Invoking command in '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg
+[0.235s] -- Install configuration: ""
+[0.235s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/ament_index/resource_index/package_run_dependencies/sc_msg
+[0.235s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/ament_index/resource_index/parent_prefix_path/sc_msg
+[0.235s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/ament_prefix_path.sh
+[0.235s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/ament_prefix_path.dsv
+[0.235s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/path.sh
+[0.235s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/path.dsv
+[0.235s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.bash
+[0.235s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.sh
+[0.235s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.zsh
+[0.236s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.dsv
+[0.236s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/package.dsv
+[0.236s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/ament_index/resource_index/packages/sc_msg
+[0.236s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msgConfig.cmake
+[0.236s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msgConfig-version.cmake
+[0.236s] -- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/package.xml
+[0.237s] Invoked command in '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg

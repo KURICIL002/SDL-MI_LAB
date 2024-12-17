@@ -1,0 +1,3 @@
+[console_scripts]
+samp = samplepkg.sample:main
+

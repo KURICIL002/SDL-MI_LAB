@@ -1,0 +1,41 @@
+[0.478s] Invoking command in '/home/pragalbhv/ros2-workspaces/sc_ws/src/sc_pkg': PYTHONPATH=/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sc_pkg build --build-base /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build install --record /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/install.log --single-version-externally-managed install_data
+[0.671s] running egg_info
+[0.671s] creating ../../build/sc_pkg/sc_pkg.egg-info
+[0.671s] writing ../../build/sc_pkg/sc_pkg.egg-info/PKG-INFO
+[0.672s] writing dependency_links to ../../build/sc_pkg/sc_pkg.egg-info/dependency_links.txt
+[0.672s] writing entry points to ../../build/sc_pkg/sc_pkg.egg-info/entry_points.txt
+[0.672s] writing requirements to ../../build/sc_pkg/sc_pkg.egg-info/requires.txt
+[0.672s] writing top-level names to ../../build/sc_pkg/sc_pkg.egg-info/top_level.txt
+[0.672s] writing manifest file '../../build/sc_pkg/sc_pkg.egg-info/SOURCES.txt'
+[0.673s] reading manifest file '../../build/sc_pkg/sc_pkg.egg-info/SOURCES.txt'
+[0.673s] adding license file 'LICENSE'
+[0.674s] writing manifest file '../../build/sc_pkg/sc_pkg.egg-info/SOURCES.txt'
+[0.674s] running build
+[0.674s] running build_py
+[0.674s] creating /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build
+[0.674s] creating /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build/lib
+[0.674s] creating /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build/lib/sc_pkg
+[0.674s] copying sc_pkg/__init__.py -> /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build/lib/sc_pkg
+[0.675s] copying sc_pkg/sc_serial.py -> /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build/lib/sc_pkg
+[0.675s] copying sc_pkg/sc_node.py -> /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build/lib/sc_pkg
+[0.675s] running install
+[0.675s] running install_lib
+[0.675s] creating /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages/sc_pkg
+[0.676s] copying /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build/lib/sc_pkg/__init__.py -> /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages/sc_pkg
+[0.676s] copying /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build/lib/sc_pkg/sc_serial.py -> /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages/sc_pkg
+[0.676s] copying /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build/lib/sc_pkg/sc_node.py -> /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages/sc_pkg
+[0.676s] byte-compiling /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages/sc_pkg/__init__.py to __init__.cpython-310.pyc
+[0.676s] byte-compiling /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages/sc_pkg/sc_serial.py to sc_serial.cpython-310.pyc
+[0.676s] byte-compiling /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages/sc_pkg/sc_node.py to sc_node.cpython-310.pyc
+[0.677s] running install_data
+[0.677s] creating /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/share/ament_index
+[0.677s] creating /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/share/ament_index/resource_index
+[0.677s] creating /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/share/ament_index/resource_index/packages
+[0.677s] copying resource/sc_pkg -> /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/share/ament_index/resource_index/packages
+[0.677s] copying package.xml -> /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/share/sc_pkg
+[0.677s] running install_egg_info
+[0.679s] Copying ../../build/sc_pkg/sc_pkg.egg-info to /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages/sc_pkg-0.0.0-py3.10.egg-info
+[0.679s] running install_scripts
+[0.695s] Installing spin_coater script to /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/sc_pkg
+[0.696s] writing list of installed files to '/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/install.log'
+[0.713s] Invoked command in '/home/pragalbhv/ros2-workspaces/sc_ws/src/sc_pkg' returned '0': PYTHONPATH=/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pragalbhv/ros2-workspaces/sc_ws/install/sc_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sc_pkg build --build-base /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/build install --record /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_pkg/install.log --single-version-externally-managed install_data

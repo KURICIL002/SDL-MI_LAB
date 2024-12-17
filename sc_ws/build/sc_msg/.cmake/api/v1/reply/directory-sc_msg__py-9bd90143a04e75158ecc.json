@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sc_msg__py",
+		"source" : "/home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg/sc_msg__py"
+	}
+}

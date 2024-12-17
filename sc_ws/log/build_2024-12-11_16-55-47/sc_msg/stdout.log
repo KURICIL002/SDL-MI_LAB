@@ -1,0 +1,23 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pragalbhv/ros2-workspaces/sc_ws/build/sc_msg
+-- Install configuration: ""
+-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/ament_index/resource_index/package_run_dependencies/sc_msg
+-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/ament_index/resource_index/parent_prefix_path/sc_msg
+-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/ament_prefix_path.sh
+-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/path.sh
+-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/environment/path.dsv
+-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.bash
+-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.sh
+-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.zsh
+-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/local_setup.dsv
+-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/package.dsv
+-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/ament_index/resource_index/packages/sc_msg
+-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msgConfig.cmake
+-- Up-to-date: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/cmake/sc_msgConfig-version.cmake
+-- Installing: /home/pragalbhv/ros2-workspaces/sc_ws/install/sc_msg/share/sc_msg/package.xml
